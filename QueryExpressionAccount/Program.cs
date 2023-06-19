@@ -335,7 +335,7 @@ namespace QueryExpressionAccount
 
             var qualifyResponse = (QualifyLeadResponse)service.Execute(qualifyLeadRequest);
 
-            Console.WriteLine("Lead Qualified Successfully..........");
+            Console.WriteLine("Lead Qualified Successfully.............");
         }
 
         public static void getTotalAmountOrderAndRelatedQuote(CrmServiceClient service)
